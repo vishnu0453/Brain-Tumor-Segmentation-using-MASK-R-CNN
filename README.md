@@ -12,6 +12,9 @@ The first step of the project involves collecting a dataset of brain MRI (Magnet
 ### Model Development:
 The core of the project lies in the development of a deep learning model using the Mask R-CNN architecture. Mask R-CNN is an extension of the Faster R-CNN object detection model, capable of producing pixel-level segmentation masks for each detected object. The model consists of two main components: the Region Proposal Network (RPN) and the Mask Head. The RPN generates region proposals, and the Mask Head predicts the segmentation masks for each region of interest. The model will be implemented using popular deep learning frameworks such as TensorFlow or PyTorch.
 
+![image](https://github.com/vishnu0453/Brain-Tumor-Segmentation-using-MASK-R-CNN/assets/73246457/4c8a50ea-74c5-4d06-a2ff-609c145a6d4b)
+
+
 ### Training and Validation:
 The collected dataset will be divided into training and validation sets. The training set will be used to train the Mask R-CNN model by optimizing the model's parameters to minimize the segmentation loss. The validation set will be used to evaluate the model's performance during training and fine-tune the hyperparameters, such as learning rate and regularization, to achieve optimal results. Data augmentation techniques like rotation, scaling, and flipping may be applied to increase the robustness and generalization of the model.
 
